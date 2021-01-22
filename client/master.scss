@@ -1,0 +1,55 @@
+@import "./variables";
+@import "./functions";
+
+body {
+    @include color($background_color);
+
+}
+
+.namn {
+    @include change_font_size($super_large);
+    @include text_pos();
+}
+
+.startsida {
+
+    @include startsida();
+    @include flex-grow();
+
+    .spelBox {
+        @include box_prop();
+    }
+
+    .profil {
+        @include box_prop();
+        
+        .användarnamn{
+            @include name_box();
+        }
+
+        .play{
+            @include play_knapp();
+        }
+}
+
+    .gameMode {
+        @include box_prop();
+        @include startsida();
+
+        .ffa{
+            @include gamemode_box();
+        }
+
+        .battleroyal{
+            @include gamemode_box();
+        }
+
+        .teams{
+            @include gamemode_box();
+        }
+
+        .experimental{
+            @include gamemode_box();
+        }
+    }
+}

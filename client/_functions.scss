@@ -1,0 +1,69 @@
+@import "./variables";
+
+
+@mixin color($background_color){
+    background-color: $background_color;
+
+} 
+
+@mixin change_font_size($font) {
+    font-size: $font;
+
+}
+
+@mixin text_pos() {
+    text-align: center;
+}
+
+@mixin startsida {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin box_prop() {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    border-style: solid;
+    height: 400px;
+    width: 400px;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+@mixin name_box() {
+    margin-left: 100px;
+    margin-top: 30px;
+    border-style: solid;
+    height: 30px;
+    width: 200px;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 8px;
+}
+
+@mixin play_knapp {
+    margin-left: 100px;
+    margin-top: 20px;
+    border-style: solid;
+    height: 40px;
+    width: 200px;
+    border-color: black;
+    border-radius: 8px;
+}
+
+@mixin gamemode_box {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-style: solid;
+    height: 120px;
+    width: 100px;
+    border-color: black;
+    border-radius: 8px;
+}
+@mixin flex-grow() {
+    flex-grow: 1;
+}

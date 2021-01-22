@@ -1,0 +1,135 @@
+body {
+  background-color: white;
+}
+
+.namn {
+  font-size: 165px;
+  text-align: center;
+}
+
+.användarnamn {
+  text-align: center;
+}
+
+.startsida {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.startsida .spelBox {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  border-style: solid;
+  height: 400px;
+  width: 400px;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.startsida .profil {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  border-style: solid;
+  height: 400px;
+  width: 400px;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.startsida .profil .namn {
+  margin-left: 100px;
+  margin-top: 30px;
+  border-style: solid;
+  height: 30px;
+  width: 200px;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 8px;
+}
+
+.startsida .profil .play {
+  margin-left: 100px;
+  margin-top: 20px;
+  border-style: solid;
+  height: 40px;
+  width: 200px;
+  border-color: black;
+  border-radius: 8px;
+}
+
+.startsida .gameMode {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  border-style: solid;
+  height: 400px;
+  width: 400px;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.startsida .gameMode .ffa {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-style: solid;
+  height: 120px;
+  width: 100px;
+  border-color: black;
+  border-radius: 8px;
+}
+
+.startsida .gameMode .battleroyal {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-style: solid;
+  height: 120px;
+  width: 100px;
+  border-color: black;
+  border-radius: 8px;
+}
+
+.startsida .gameMode .teams {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-style: solid;
+  height: 120px;
+  width: 100px;
+  border-color: black;
+  border-radius: 8px;
+}
+
+.startsida .gameMode .experimental {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-style: solid;
+  height: 120px;
+  width: 100px;
+  border-color: black;
+  border-radius: 8px;
+}
+/*# sourceMappingURL=master.css.map */
