@@ -6,6 +6,11 @@
 
 } 
 
+@mixin box_color($box_color){
+    background-color: $box_color;
+    
+}
+
 @mixin change_font_size($font) {
     font-size: $font;
 

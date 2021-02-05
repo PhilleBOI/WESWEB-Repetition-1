@@ -14,10 +14,21 @@
 
 <div class="startsida">
     <div class="template"></div>
-    <div class="spelBox"></div>
+    <div class="spelBox">
+    <div>
+        <% for( let i=0; i < names.length; i++ ) { %>
+            <div class="card">
+                <p>
+                    <%= names[i].name %>
+                </p>
+            </div>
+   <% } %>
+    </div>
+    </div>
     <div class="profil">
-    <form action="/playerName" method="post">
-        <input class="användarnamn" type="name" name="name" placeholder="Användarnamn">
+    
+    <form action="/" method="post">
+        <input class="användarnamn" type="text" name="name" placeholder="Användarnamn">
         <button class="play" type="submit">Play</button>
     </form>
     </div>

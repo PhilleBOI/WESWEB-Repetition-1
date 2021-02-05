@@ -1,13 +1,10 @@
+@charset "UTF-8";
 body {
-  background-color: white;
+  background-color: #457B9D;
 }
 
 .namn {
   font-size: 165px;
-  text-align: center;
-}
-
-.användarnamn {
   text-align: center;
 }
 
@@ -34,6 +31,11 @@ body {
   border-width: 3px;
   border-color: black;
   border-radius: 10px;
+  background-color: #0081A7;
+}
+
+.startsida .spelBox .card {
+  background-color: #0081A7;
 }
 
 .startsida .profil {
@@ -47,9 +49,10 @@ body {
   border-width: 3px;
   border-color: black;
   border-radius: 10px;
+  background-color: #0081A7;
 }
 
-.startsida .profil .namn {
+.startsida .profil .användarnamn {
   margin-left: 100px;
   margin-top: 30px;
   border-style: solid;
@@ -87,6 +90,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          background-color: #0081A7;
 }
 
 .startsida .gameMode .ffa {
@@ -98,6 +102,7 @@ body {
   width: 100px;
   border-color: black;
   border-radius: 8px;
+  background-color: red;
 }
 
 .startsida .gameMode .battleroyal {
@@ -109,6 +114,7 @@ body {
   width: 100px;
   border-color: black;
   border-radius: 8px;
+  background-color: red;
 }
 
 .startsida .gameMode .teams {
@@ -120,6 +126,7 @@ body {
   width: 100px;
   border-color: black;
   border-radius: 8px;
+  background-color: red;
 }
 
 .startsida .gameMode .experimental {
@@ -131,5 +138,6 @@ body {
   width: 100px;
   border-color: black;
   border-radius: 8px;
+  background-color: red;
 }
 /*# sourceMappingURL=master.css.map */
